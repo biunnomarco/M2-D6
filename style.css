@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+/* QUI INIZIA L'HEADER*/
+.header {
+    height: 75px;
+    width: 100%;
+    background: rgb(229,230,63);
+    background: linear-gradient(38deg, rgba(229,230,63,1) 0%, rgba(227,31,31,1) 100%);  
+    display: flex;
+    align-items: center ;
+    position: fixed;
+    border-bottom: 5px solid black;
+}
+.headerSx {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 5px;
+}
+#logo {
+    width: 70px;
+    height: 70px;
+    background-image: url(assets/vsqq7i848vfsqfnoo3pj0n8p7g.png);
+    background-position: center;
+    background-size: cover;
+}
+#shopName {
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+}
+.headerDx {
+    height: 100%;
+    width: 50%;
+    
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    column-gap: 10px;
+}
+#flag {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-image: url(assets/flag.jpg);
+    background-size: contain;   
+}
+#menu {
+    color: white;
+}
+
+/* DA QUI INIZIA IL MAIN */
+main {
+    padding-top: 85px;
+    margin: 0 15px 0 10px;
+}
+#bestSeller {
+    text-align: center;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tabella {
+    width: 100%;
+    height: auto;
+    border: solid 2px black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.prima {background-image: url(assets/lotr.webp);}
+.seconda{background-image: url(assets/hobbit.jpg);}
+.terza{background-image: url(assets/shannara.jpg);}
+.quarta{background-image: url(assets/cronache\ del\ mondo\ emarso.jpg);}
+.quinta{background-image: url(assets/trono.jpg);}
+.Riga{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid 1px black;
+    font-size: 13px;
+}
+.img {width: 25%;text-align: center;}
+.lnk {width: 25%;text-align: center;}
+.dcrptn {width: 50%;text-align: center;}
+.immagine {
+    width: 25%;
+    height: 100px;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 3px 0 3px 0;
+}
+.link {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 3px;
+}
+.descrizione {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    white-space: pre-wrap;
+    overflow:auto;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    box-sizing: content-box;
+    margin: 2px;
+}
+.opinioni {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+}
+#writeHere {
+    width: 80%;
+    height: 95%;
+    border: 2px solid black;
+}
+#footer {
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 35px;
+    border-top: solid 5px black;
+    height: 60px;
+    width: 100%;
+}
+
+/* Classe aggiunta con JS*/
+.addedByJs {
+    color: aquamarine;
+}
+
+/*Classe aggiunta da js per modificare visibilità delle immagini */
+.changeVisibility {
+    opacity: 0;
+}
